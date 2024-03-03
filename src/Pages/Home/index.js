@@ -1,4 +1,11 @@
+import Category from "../../Pages/Category/index";
+import Slider from "../../Components/Slider/Slider";
+
 function Home() {
-  return <div>Home</div>;
+  return <div>
+    <Slider/>
+    <Category/>
+  </div>;
+
 }
 export default Home;
